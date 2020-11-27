@@ -4,9 +4,9 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/ganda/Documents/GitHub/MonoGame/Project/MonoGameTestProject/Content/5db47ab.jpg</File>
+    <File>C:/Users/ganda/Documents/GitHub/MonoGame/Project/MonoGameTestProject/Content/cat.jpg</File>
   </SourceFiles>
   <DestFiles>
-    <File>cat.jpg</File>
+    <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

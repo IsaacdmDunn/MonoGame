@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/ganda/Documents/GitHub/MonoGame/Project/MonoGameTestProject/Content/5db47ab.jpg</SourceFile>
+  <SourceFile>C:/Users/ganda/Documents/GitHub/MonoGame/Project/MonoGameTestProject/Content/cat.jpg</SourceFile>
   <SourceTime>2020-11-27T09:27:03.7645945+00:00</SourceTime>
   <DestFile>C:/Users/ganda/Documents/GitHub/MonoGame/Project/MonoGameTestProject/Content/bin/Windows/cat.xnb</DestFile>
-  <DestTime>2020-11-27T09:28:43.5014973+00:00</DestTime>
+  <DestTime>2020-11-27T09:30:57.3954274+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T16:35:54+00:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

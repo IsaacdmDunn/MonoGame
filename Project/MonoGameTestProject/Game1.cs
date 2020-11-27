@@ -11,6 +11,12 @@ namespace MonoGameTestProject
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Texture2D cat;
+        float targetX = 128;
+        float targetY;
+        Vector2 scale;
+        Vector2 velocity = new Vector2 (100,100);
+        Vector2 position = new Vector2 (0,0);
 
         public Game1()
         {
@@ -39,7 +45,9 @@ namespace MonoGameTestProject
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            cat = Content.Load<Texture2D>("cat");
+            scale = new Vector2(targetX / (float)cat.Width, targetX / (float)cat.Width);
+            targetY = cat.Height * scale.Y;
             // TODO: use this.Content to load your game content here
         }
 
@@ -63,7 +71,24 @@ namespace MonoGameTestProject
                 Exit();
 
             // TODO: Add your update logic here
+            position += velocity * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
+            if (position.X <= 0 && velocity.X < 0)
+            {
+                velocity.X *= -1;
+            }
+            else if (position.Y <= 0 && velocity.Y < 0)
+            {
+                velocity.Y *= -1;
+            }
+            else if (position.Y >= 800 - targetY && velocity.Y > 0)
+            {
+                velocity.Y *= -1;
+            }
+            else if (position.X >= 800 - targetX && velocity.X > 0)
+            {
+                velocity.X *= -1;
+            }
             base.Update(gameTime);
         }
 
@@ -76,7 +101,11 @@ namespace MonoGameTestProject
             GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
 
+            spriteBatch.Draw(cat, position: position, scale: scale);
+
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }

@@ -21,3 +21,4 @@ C:\Users\ganda\Documents\GitHub\MonoGame\Project\MonoGameTestProject\obj\x86\Deb
 C:\Users\ganda\Documents\GitHub\MonoGame\Project\MonoGameTestProject\obj\x86\Debug\MonoGameTestProject.csproj.CopyComplete
 C:\Users\ganda\Documents\GitHub\MonoGame\Project\MonoGameTestProject\obj\x86\Debug\MonoGameTestProject.exe
 C:\Users\ganda\Documents\GitHub\MonoGame\Project\MonoGameTestProject\obj\x86\Debug\MonoGameTestProject.pdb
+C:\Users\ganda\Documents\GitHub\MonoGame\Project\MonoGameTestProject\bin\Windows\x86\Debug\Content\cat.xnb

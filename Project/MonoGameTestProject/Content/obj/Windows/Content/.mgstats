@@ -1,0 +1,2 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/ganda/Documents/GitHub/MonoGame/Project/MonoGameTestProject/Content/cat.jpg","C:/Users/ganda/Documents/GitHub/MonoGame/Project/MonoGameTestProject/Content/bin/Windows/Content/cat.xnb","TextureProcessor","Texture2DContent",83849,5062585,0.1741585
